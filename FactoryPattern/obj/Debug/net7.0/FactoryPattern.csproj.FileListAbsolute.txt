@@ -1,0 +1,11 @@
+D:\c#\DesignPatterns\FactoryPattern\bin\Debug\net7.0\FactoryPattern.deps.json
+D:\c#\DesignPatterns\FactoryPattern\bin\Debug\net7.0\FactoryPattern.dll
+D:\c#\DesignPatterns\FactoryPattern\bin\Debug\net7.0\FactoryPattern.pdb
+D:\c#\DesignPatterns\FactoryPattern\obj\Debug\net7.0\FactoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\DesignPatterns\FactoryPattern\obj\Debug\net7.0\FactoryPattern.AssemblyInfoInputs.cache
+D:\c#\DesignPatterns\FactoryPattern\obj\Debug\net7.0\FactoryPattern.AssemblyInfo.cs
+D:\c#\DesignPatterns\FactoryPattern\obj\Debug\net7.0\FactoryPattern.csproj.CoreCompileInputs.cache
+D:\c#\DesignPatterns\FactoryPattern\obj\Debug\net7.0\FactoryPattern.dll
+D:\c#\DesignPatterns\FactoryPattern\obj\Debug\net7.0\refint\FactoryPattern.dll
+D:\c#\DesignPatterns\FactoryPattern\obj\Debug\net7.0\FactoryPattern.pdb
+D:\c#\DesignPatterns\FactoryPattern\obj\Debug\net7.0\ref\FactoryPattern.dll
