@@ -1,14 +1,15 @@
 ﻿namespace StartPoint
 {
-	internal class Program
+    internal class Program
 	{
 		static void Main(string[] args)
 		{
 			#region FacotoryPattern
 
-			FactoryPattern.EnemyShips.FactoryPattern facotoryModel = new FactoryPattern.EnemyShips.FactoryPattern();
+			FactoryPattern.ClientFactoryPattern facotoryModel = new FactoryPattern.ClientFactoryPattern();
 
-			facotoryModel.RunSenario1(); 
+			//facotoryModel.RunEnemyShapSenario(); 
+			//facotoryModel.RunFlyingCompanySenario();
 
 			#endregion
 		}
