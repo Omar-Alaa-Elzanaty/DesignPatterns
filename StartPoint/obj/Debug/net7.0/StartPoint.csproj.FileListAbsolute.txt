@@ -16,3 +16,5 @@ D:\c#\DesignPatterns\StartPoint\bin\Debug\net7.0\FactoryPattern.dll
 D:\c#\DesignPatterns\StartPoint\bin\Debug\net7.0\FactoryPattern.pdb
 D:\c#\DesignPatterns\StartPoint\obj\Debug\net7.0\StartPoint.csproj.AssemblyReference.cache
 D:\c#\DesignPatterns\StartPoint\obj\Debug\net7.0\StartPoint.csproj.CopyComplete
+D:\c#\DesignPatterns\StartPoint\bin\Debug\net7.0\AbstractFactoryPattern.dll
+D:\c#\DesignPatterns\StartPoint\bin\Debug\net7.0\AbstractFactoryPattern.pdb

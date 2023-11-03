@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "AbstractFactoryPattern/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/AbstractFactoryPattern.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AbstractFactoryPattern.dll": {}
+        }
+      },
       "FactoryPattern/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "AbstractFactoryPattern/1.0.0": {
+      "type": "project",
+      "path": "../AbstractFactoryPattern/AbstractFactoryPattern.csproj",
+      "msbuildProject": "../AbstractFactoryPattern/AbstractFactoryPattern.csproj"
+    },
     "FactoryPattern/1.0.0": {
       "type": "project",
       "path": "../FactoryPattern/FactoryPattern.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AbstractFactoryPattern >= 1.0.0",
       "FactoryPattern >= 1.0.0"
     ]
   },
@@ -53,6 +69,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\c#\\DesignPatterns\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj": {
+              "projectPath": "D:\\c#\\DesignPatterns\\AbstractFactoryPattern\\AbstractFactoryPattern.csproj"
+            },
             "D:\\c#\\DesignPatterns\\FactoryPattern\\FactoryPattern.csproj": {
               "projectPath": "D:\\c#\\DesignPatterns\\FactoryPattern\\FactoryPattern.csproj"
             }

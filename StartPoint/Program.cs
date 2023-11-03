@@ -1,4 +1,6 @@
-﻿namespace StartPoint
+﻿using AbstractFactoryPattern.Furniture;
+
+namespace StartPoint
 {
     internal class Program
 	{
@@ -12,6 +14,14 @@
 			//facotoryModel.RunFlyingCompanySenario();
 
 			#endregion
+
+			#region AbstractFactoryPattern
+
+			Client.RunSenarioFurnitureSenario(new ModernFurniture());
+			Console.WriteLine("------------");
+            Client.RunSenarioFurnitureSenario(new ClassicFurniture()); 
+			#endregion
+
 		}
 	}
 }

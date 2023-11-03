@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v7.0": {
       "StartPoint/1.0.0": {
         "dependencies": {
+          "AbstractFactoryPattern": "1.0.0",
           "FactoryPattern": "1.0.0"
         },
         "runtime": {
           "StartPoint.dll": {}
+        }
+      },
+      "AbstractFactoryPattern/1.0.0": {
+        "runtime": {
+          "AbstractFactoryPattern.dll": {}
         }
       },
       "FactoryPattern/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "StartPoint/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AbstractFactoryPattern/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
