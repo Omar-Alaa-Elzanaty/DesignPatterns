@@ -1,5 +1,6 @@
 ﻿using AbstractFactoryPattern.Furniture;
-
+using BuilderPattern.Models;
+using BuilderPattern;
 namespace StartPoint
 {
     internal class Program
@@ -17,11 +18,17 @@ namespace StartPoint
 
 			#region AbstractFactoryPattern
 
-			Client.RunSenarioFurnitureSenario(new ModernFurniture());
-			Console.WriteLine("------------");
-            Client.RunSenarioFurnitureSenario(new ClassicFurniture()); 
+			//AbstractFactoryPattern.Furniture.Client.RunSenarioFurnitureSenario(new ModernFurniture());
+			//Console.WriteLine("------------");
+			//AbstractFactoryPattern.Furniture.Client.RunSenarioFurnitureSenario(new ClassicFurniture());
+
 			#endregion
 
+			#region BuilderPattern
+			//BuilderPattern.Client.RunPublicAirplaneSenario();
+			//Console.WriteLine();
+			//BuilderPattern.Client.RunPrivateAirplaneSenario();
+			#endregion
 		}
 	}
 }
