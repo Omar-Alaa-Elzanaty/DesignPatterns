@@ -1,6 +1,8 @@
 ﻿using AbstractFactoryPattern.Furniture;
 using BuilderPattern.Models;
 using BuilderPattern;
+using Prototypepattern;
+
 namespace StartPoint
 {
     internal class Program
@@ -28,6 +30,11 @@ namespace StartPoint
 			//BuilderPattern.Client.RunPublicAirplaneSenario();
 			//Console.WriteLine();
 			//BuilderPattern.Client.RunPrivateAirplaneSenario();
+			#endregion
+
+			#region ProtoTypePattern
+			ProtoTypePattern pattern = new ProtoTypePattern();
+			pattern.RunshapeTest(); 
 			#endregion
 		}
 	}
