@@ -2,7 +2,7 @@
 using BuilderPattern.Models;
 using BuilderPattern;
 using Prototypepattern;
-
+using SingletonPattern;
 namespace StartPoint
 {
     internal class Program
@@ -33,9 +33,11 @@ namespace StartPoint
 			#endregion
 
 			#region ProtoTypePattern
-			ProtoTypePattern pattern = new ProtoTypePattern();
-			pattern.RunshapeTest(); 
+			//ProtoTypePattern pattern = new ProtoTypePattern();
+			//pattern.RunshapeTest(); 
 			#endregion
+
+			SingletonPattern.Client.RunManagerSenario();
 		}
 	}
 }
