@@ -11,9 +11,9 @@ namespace StartPoint
 		{
 			#region FacotoryPattern
 
-			FactoryPattern.ClientFactoryPattern facotoryModel = new FactoryPattern.ClientFactoryPattern();
+			//FactoryPattern.ClientFactoryPattern facotoryModel = new FactoryPattern.ClientFactoryPattern();
 
-			//facotoryModel.RunEnemyShapSenario(); 
+			//facotoryModel.RunEnemyShapSenario();
 			//facotoryModel.RunFlyingCompanySenario();
 
 			#endregion
@@ -34,10 +34,16 @@ namespace StartPoint
 
 			#region ProtoTypePattern
 			//ProtoTypePattern pattern = new ProtoTypePattern();
-			//pattern.RunshapeTest(); 
+			//pattern.RunshapeTest();
 			#endregion
 
-			SingletonPattern.Client.RunManagerSenario();
+			#region SingletonPattern
+			//SingletonPattern.Client.RunManagerSenario();
+			#endregion
+
+			#region CommandPattern
+			//CommandPattern.Client.RunSenario(); 
+			#endregion
 		}
 	}
 }
